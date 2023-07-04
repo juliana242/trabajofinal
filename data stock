@@ -1,0 +1,13 @@
+data() {
+  return {
+    productos: [], // Lista de productos
+    apiUrl: '...............', // URL de la API
+    cargando: false, // Indicador de carga
+    error: false, // Indicador de error
+    formulario: { // Atributos del formulario
+      nombre: '',
+      precio: 0,
+      stock: 0
+    }
+  };
+}
