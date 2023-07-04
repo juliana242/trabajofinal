@@ -1,0 +1,73 @@
+/* Estilo para el "Header" */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilo para el "Main" */
+main {
+  padding: 20px;
+}
+
+/* Estilo para el "Container" */
+.container {
+  margin-top: 20px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el "Form Heading" */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Estilo para la "Form Label" */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Estilo "Inputs" */
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Estilo para "imagen" */
+img {
+  display: block;
+  margin-top: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilo boton grabar */
+button.btn-success {
+  background-color: #28a745;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.btn-success:hover {
+  background-color: #218838;
+}
+
+/* Estilo "footer" */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
