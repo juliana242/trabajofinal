@@ -1,60 +1,114 @@
-User
-me podrias decir porque mi footer no se acomoda abajo? 
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@500&display=swap');
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+/*navbar tpdas paginas*/
+
+.navbar-logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-footer .container{
-    background-color: lightblue;
 
+/*main*/
+main{
+    padding-bottom: 20px;
 }
 
-.row {
+html {
+    position: relative;
+    min-height: 100%;
+    font-family: 'Montserrat', sans-serif;   
+}
+ body {
+    background: -webkit-linear-gradient(180deg, #38b6ff,#787ed9);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(180deg, #38b6ff,#787ed9);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                              
+}
+
+h1{
+    text-align: center;
+    color: #f2f0eb;
+}
+ /*pagina productos*/
+
+ .table-responsive {
+    margin-bottom: 20px;
+    background-color: #f2f0eb;  
+    border-radius: 1%;
+ }
+
+/*pagina nuevo producto*/
+
+ .formulario{
+    margin-bottom: 20px;
+    background-color: #f2f0eb;  
+    border-radius: 1%;
+ }
+ 
+
+ /*pagina about us*/
+ .aboutUs {
+    color: #f2f0eb;
+    align-items: center;
+    width: 60%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+
+
+ }
+
+/*footer todas paginas*/
+
+
+footer {
+    width: 100%;
+    bottom: 0;
+    overflow: hidden;
+    background: -webkit-linear-gradient(180deg, #38b6ff #787ed9,#5159c8);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(180deg,#38b6ff #787ed9,#5159c8);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+    border-style: solid;
+    border-color: #24285e;
+    border-width: 1px;
+    height: 300px;
+}
+
+footer .row {
     display: flex;
     justify-content: space-between;
-    padding: 40px 100px ;
+    padding: 40px 100px 10px 10px ;
+
 }
 
-.footer-col ul{
-    list-style: none;
+footer .col{
+    display: flex;
+    justify-content: space-between;
 }
 
-.footer-col h4{
-    color: white;
-    margin-bottom: 25px;
+
+footer h4{
+    color: rgb(244, 244, 244);
+    margin-bottom: 5px;
     font-size: 22px;
     position: relative; 
     font-family: 'Ubuntu', sans-serif;
 }
-.footer-col h4::before{
-    content: " ";
-    width: 70px;
-    height: 2px;
-    position: absolute;
-    background-color: blue;
-    bottom: -10px
-}
-
-.footer-col ul li{
-    padding 10px 0px;
-}
-.footer-col ul li a{
-    color: black;
-    text-decoration: none;
-    font-size:16px ;
-    opacity: 0.7;
-    transition: 0.5s;
-}
 
 
-.footer-col ul li a:hover{
+footer .col ul li{
+    padding: 10px 0px;
+}
+
+footer a{
     color: white;
+    font-size:16px ;
+    opacity: 0.7;
+}
+
+
+footer .col ul li a:hover{
+    color: rgb(254, 254, 254);
     text-decoration: none;
     font-size:16px ;
     opacity: 0.7;
@@ -62,7 +116,7 @@ footer .container{
 
 }
 
-.footer-col input{
+footer .col input{
     border: none;
     width: 250px;
     height: 45px;
@@ -72,43 +126,13 @@ footer .container{
 
 }
 
-.footer-col .input{
+footer input{
     padding: 0px 20px;
-    background-color: blue;
-    border: none;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
     color: white
 
 }
-
-.col p{
-    color: white;
-}
-
-.row hr{
-    opacity: 0.7;
-}
-
-.row .socialIcons i{
-    display: inline-block;
-    color:blue;
-    font-size: 20px;
-    margin: 0 15px;
-    transition: 0.5s;
-}
-
-.row .socialIcons i:hober{
-    color: blue;
-}
-
-@media (max-width:600px) {
-    footer.wor{
-        flex-direction: column;
-        padding: 20px 30px;
-    }
-
-    footer .footer-col ul{
-        margin-left:20px;
-        margin-bottom: 20px;
     }
 
     .footer-col input{
